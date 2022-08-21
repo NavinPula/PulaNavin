@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link rel="stylesheet" href="./new.css" />
+
+
+
+    <link rel="icon" sizes="32x32" href="./public/img/logo.svg" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Pula Navin | Web Developer</title>
+</head>
+
+<body>
+    <nav>
+        <h1>P.Navin </h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <section class="hero" id="about">
+        <img src="./public/img/IMG20220605121132.png" alt="jane-doe" loading="lazy" class="hero-img" />
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">
+            <h2>Hi There I'Am <span class="type" style="color:rgb(17, 116, 255)"></span></h2>
+            </p>
+        </div>
+    </section>
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+            Thanks for your interest, here
+            is a quick story of me and this
+            website.
+            I do my work mainly in <span>HTML, CSS, Bootstrap, Tailwind CSS, and JavaScript</span>. HTML and CSS
+            are my stronger section.
+            Besides these I know Back end web development.
+            This website is basically one of my
+            Web Development project which is
+            built using HTML only.
+            Here one can also find ideas for
+            projects in different languages.
+
+            Thanks again for reading this,
+            because of people like you, it
+            exists and prospers!
+        </p>
+        <p>
+            Hi there ! I am P.Navin and i have completed B.tech in Mechanical Engineer.I am
+            interested in designing
+            whether it is in web development or in Machine Design because i am flexible in any
+            industry.Along with my degree i have learned AutoCad ,AutoDesk Inventory,
+            along with these HTML,CSS,JS,Bootstrap,Tailwind CSS also learned.
+        </p>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="./public/img/html5-logo-31813.png" alt="" loading="lazy" class="icon icon-card" />
+                <img src="./public/img/html5-logo-31821.png" alt="" loading="lazy" class="icon icon-card" />
+                <img src="./public/img/javascript-39395.png" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img src="./public/img/Bootstrap_logo.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="./public/img/Tailwind_CSS_Logo.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="./public/img/MongoDB_logo_PNG1.png" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="./public/img/BMI Calci.png" alt="bmi-calculator" loading="lazy" class="project-pic" />
+                <h3 class="project-title">BMI Calculator</h3>
+                <p class="project-details">
+                    BMI means Body, Mass, Index.This Calculator calculate our BMI and says we are healthy or not.
+                    We developed this project by using HTML,CSS,JS.
+                </p>
+                <a href="./public/bmi-calculator.html" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="./public/img/inst.png" alt="Institute-web" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Institute Web Page</h3>
+                <p class="project-details">
+                    First and foremost a college website is a sales tool showcasing programs offered, the campus, and
+                    student life.Institute web page developed. Actually this is a assignment page which is i have design
+                    using
+                    Bootstrap class and JS
+                </p>
+                <a href="./public/assignment.html" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="./public/img/calci.png" alt="Calculator" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Calculator</h3>
+                <p class="project-details">
+
+                </p>
+                <a href="./public/calci.html" target="_blank" class="project-link">Check it Out</a>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xyylngw" method="POST">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Enter Your Name"
+                            class="input-field" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="sender-email" placeholder="Enter Your Email"
+                            class="input-field" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+                            class="input-field" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="socials">
+        <a href="#" target="_blank"><img src="./public/img/icons8-instagram-48.png" alt="Twitter" loading="lazy"
+                class="socicon" /></a>
+        <a href="#" target="_blank"><img src="./public/img/icons8-twitter-48.png" alt="Instagram" loading="lazy"
+                class="socicon" /></a>
+        <a href="#" target="_blank"><img src="./public/img/icons8-linkedin-circled-48.png" alt="Linkedin" loading="lazy"
+                class="socicon" /></a>
+        <a href="#" target="_blank"><img src="./public/img/icons8-github-50.png" alt="Github" class="socicon" /></a>
+
+    </div>
+    <footer>
+        <p class="copy">&copy; Copyright 2022</p>
+        <p class="copy">
+            Built with &#x2661; by
+            <a href="" target="_blank">Navin P.</a>
+        </p>
+    </footer>
+    <i class="scroll-up" id="scroll-up"><img src="./public/img/icons8-up-arrow-50.png" alt=""></i>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        const scrollUp = document.querySelector("#scroll-up");
+
+        scrollUp.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth",
+            });
+        });
+        const burger = document.querySelector("#burger-menu");
+        const ul = document.querySelector("nav ul");
+        const nav = document.querySelector("nav");
+        burger.addEventListener("click", () => {
+            ul.classList.toggle("show");
+        });
+        const navLink = document.querySelectorAll(".nav-link");
+
+        navLink.forEach((link) =>
+            link.addEventListener("click", () => {
+                ul.classList.remove("show");
+            })
+        );
+        var typed = new Typed(".type", {
+            strings: ["Mechanical Engineer.", "Designer.", "UI Developer."],
+            typeSpeed: 60,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
